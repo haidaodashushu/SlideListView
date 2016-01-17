@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/contentTv"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#ff99cc00"
+        android:gravity="center"
+        android:text="item1"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/testButtonTv"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#ff99cc00"
+        android:gravity="center"
+        android:clickable="true"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:text="测试按钮"/>
+</LinearLayout>
