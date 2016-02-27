@@ -5,7 +5,8 @@
 
 用法：
 在Adapter的getView(final int position, View convertView, ViewGroup parent)的方法中如下代码
-Holder holder = null;
+
+        Holder holder = null;
         if (convertView == null) {
             Log.i("ListAdapter", "convertView == null");
             //这里要将SlideView作为listView的子Item
